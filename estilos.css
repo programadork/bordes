@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 400px;
+    margin: 20px auto;
+    height: auto;
+    background: bisque;
+    padding: 20px 0;
+    border: 20px groove brown;
+}
+
+.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 50%;
+
+}
+
+.name{
+    text-align: center;
+    font-family: 'Arial';
+}
+
+.cta{
+    display: block;
+    width: 150px;
+    background: crimson;
+    border-radius: 3px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px auto;
+}
